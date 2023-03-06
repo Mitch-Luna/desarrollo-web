@@ -1,0 +1,105 @@
+.container{
+    background-color: rgb(149, 181, 227);
+   
+}
+.sub-container{
+    margin-top: 45px;
+    margin-left: 8px;
+    background-color: white;
+    width: 98%;
+    border-radius: 45px;
+    
+}
+.cabecera{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.h1{
+    text-shadow: -3px -1px 5px #7a64c8;
+    color: blue;
+    font-size: 70px;
+    font-family: 'fantasy';
+}
+
+.imagen{
+    width: 20%;
+    height: 45%;
+    border-radius: 45px;
+    
+}
+.imagen:hover {
+    filter: opacity(.5);
+}
+.texto{
+    margin-left: 13px; 
+    font-size: 20px;
+    font-family: "arial";
+
+}
+.cuerpo{
+    margin-top: 18px;
+}
+.caja-container{
+    display: flex;
+}
+.cajita1{
+    margin-left: 15px;
+    width: 20%;
+    height: 45%;
+    overflow: hidden;
+}
+.cajita2{
+    width: 20%;
+    overflow: hidden;
+    text-align: center;
+}
+.cajita3{
+    width: 20%;
+    overflow: hidden;
+    text-align: center;
+}
+li{
+    font-size: 20px;
+    list-style: none;
+    font-family: "";
+    
+}
+a {
+    font-family: "times";
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+  }
+  
+  a:link {
+    color: blue;
+    font-family: arial;
+  }
+  
+  a:visited {
+    color: blue;
+  }
+  
+  a:focus {
+    border-bottom: 2px solid;
+    background: rgb(170, 223, 227);
+  }
+  
+  a:hover {
+    border-bottom: 1px solid black;
+    background: #7ccba7 ;
+  }
+
+  .titulo{
+    font-size: 25px;
+    font-family: Impact;
+
+  }
+  .titulo:hover {
+    filter: opacity(.5);
+    color: rgb(28, 33, 177);
+}

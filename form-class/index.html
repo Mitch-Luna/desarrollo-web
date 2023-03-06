@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios</title>
+  </head>
+
+  <body>
+    <main>
+      <section>
+        <form action="">
+          <label for="nombre">
+            <span>Nombre</span>
+            <input
+              type="text"
+              id="Nombre"
+              name="Nombre"
+              placeholder="tu nombre"
+              autocomplete="name"
+              required
+            />
+          </label>
+          <label for="apellido">
+            <span>Apellido</span>
+            <input
+              type="text"
+              id="Apellido"
+              name="Apellido"
+              placeholder="tu apellido"
+              autocomplete="text"
+              required
+            />
+          </label>
+          <label for="asignatura">
+            <span>Asignatura</span>
+            <input
+              type="text"
+              id="Asignatura"
+              name="Asignatura"
+              autocomplete="text"
+              required
+            />
+          <label for="fecha">
+            <span>Fecha Asignada</span>
+            <input
+              type="date"
+              id="fecha-asignada"
+              name="fecha-asignada"
+              autocomplete="text"
+              required
+            />
+          </label>
+          <label for="time">
+            <span>Hora de entrada</span>
+            <input
+              type="time"
+              id="hora_entrada"
+              name="hora_entrada"
+              autocomplete="text"
+              required
+            />
+          </label>
+          <label for="hora-salida">
+            <span>Hora de salida</span>
+            <input
+              type="time"
+              id="hora_salida"
+              name="hora_salida"
+              autocomplete="text"
+              required
+            />
+          </label>
+          <label for="genero">
+            <span>Genero</span>
+            <input
+              type="text"
+              id="genero"
+              name="genero"
+              autocomplete="text"
+              required
+            />
+          </label>
+          <label for="edad">
+            <span>Edad</span>
+            <input
+              type="number"
+              id="edad"
+              name="edad"
+              autocomplete="text"
+              required
+            />
+          </label>
+          <label for="correo">
+            <span>E-mail</span>
+            <input
+              type="email"
+              id="correo"
+              name="correo"
+              autocomplete="email"
+              placeholder="tu correo"
+            />
+          <label for="gender-user">
+            <span>Generos</span>
+            <span>M</span>
+            <input
+              type="radio"
+              id="genders-user"
+              name="gender-user"
+              placeholder="tu genero"
+            />
+            <span>F</span>
+            <input
+              type="radio"
+              id="genders-user"
+              name="gender-user"
+              placeholder="tu genero"
+            />
+          </label>
+          <label for="asignatura">
+            <input list="asignatura">
+            <datalist id="asignatura">
+                <option value="ingenieria software"></option>
+                <option value="inteligencia artificial"></option>
+                <option value="ingenieria web"></option>
+
+            </datalist>
+            <input type="submit" value="que">
+            <button type="submit">Guardar</button>
+          </label>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
