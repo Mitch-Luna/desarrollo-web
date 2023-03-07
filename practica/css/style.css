@@ -48,12 +48,12 @@
 }
 .cajita1{
     margin-left: 15px;
-    width: 20%;
+    width: 30%;
     height: 45%;
     overflow: hidden;
 }
 .cajita2{
-    width: 20%;
+    width: 30%;
     overflow: hidden;
     text-align: center;
 }
@@ -76,12 +76,12 @@ a {
   }
   
   a:link {
-    color: blue;
+    color: rgb(0, 0, 0);
     font-family: arial;
   }
   
   a:visited {
-    color: blue;
+    color: rgb(5, 5, 5);
   }
   
   a:focus {
@@ -102,4 +102,34 @@ a {
   .titulo:hover {
     filter: opacity(.5);
     color: rgb(28, 33, 177);
+}
+.ul{
+    display: flex;
+    justify-content: space-around;
+}
+.link{
+    margin-right: 10px;
+    
+}
+.container-image{
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-around;
+}
+.container-image2{
+    margin-top: 57px;
+    display: flex;
+    justify-content: space-around;
+}
+.container-image3{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.icon{
+    width: 30px;
+    margin-left: 25px;
+}
+.puntos{
+    margin-left: -32px;
 }
